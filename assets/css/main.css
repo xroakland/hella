@@ -1,10 +1,7 @@
 @import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
-
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text:600i,400,600');
 /*
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+xro
 */
 
 html, body, div, span, applet, object,
@@ -141,7 +138,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #ffffff;
-		font-family: "FUCXED CAPS Regular", FUCXED CAPS Regular;
+        font-family: 'Crimson Text', serif;
 		font-weight: 400;
 		font-size: 1rem;
 		line-height: 1.65;
@@ -179,7 +176,7 @@ input, select, textarea {
 		font-weight: 600;
 		line-height: 1.5;
 		margin: 0 0 1rem 0;
-		text-transform: uppercase;
+		text-transform: lowercase;
 		letter-spacing: 0.2rem;
 	}
 
@@ -648,7 +645,7 @@ input, select, textarea {
 			pointer-events: none;
 			background-image: url("../../images/overlay.png");
 			background-color: rgba(19, 21, 25, 0.5);
-			border-radius: 4px;
+			border-radius: 3px;
 			content: '';
 			display: block;
 			height: 100%;
